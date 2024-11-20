@@ -1,0 +1,64 @@
+# .gitignore
+
+# Build directories
+build/
+external/
+**/build/
+**/cmake-build-*/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+*.cmake
+!CMakeLists.txt
+Makefile
+compile_commands.json
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+.vs/
+*.user
+*.workspace
+*.sublime-workspace
+
+# Dependencies
+external/iputils/
+
+# Binary
+ping_stats
+
+# OS specific
+.DS_Store
+.directory
+.Trash-*
+*~
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Clang/LLVM
+.clang-format
+.clangd
+.cache/
+
+# Code coverage
+*.gcno
+*.gcda
+*.gcov
