@@ -54,7 +54,7 @@ sudo cmake --install .
 
 ## Running
 ```bash
-sudo ping_adv_minimal <target_ip> <count> <interval_ms>
+sudo ping_stats <target_ip> <count> <interval_ms>
 
 Arguments:
   target_ip    - IP address to ping
@@ -64,7 +64,7 @@ Arguments:
 
 ## Example
 ```bash
-sudo ping_adv_minimal 8.8.8.8 10 1.0
+sudo ping_stats 8.8.8.8 10 1.0
 [8.8.8.8] Test Result: Average Latency 15.24 ms, Jitter 0.89 ms (10 results)
 ```
 
